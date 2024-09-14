@@ -6,20 +6,20 @@
     <title>Calculadora</title>
 </head>
 <body>
+
     <h3>Resolução de equação de Segundo Grau</h3>
     equação na forma: ax² + bx + c = 0 <br>
-    <input type="text" name="zeroum" placeholder="A">
-    <input type="text" name="zerodois" placeholder="B">
-    <input type="text" name="zerotres" placeholder="C">
 
+    a:<input type="number" name="" id="val_a" value="1"><br>
+    b:<input type="number" name="" id="val_b" value="0"><br>
+    c:<input type="number" name="" id="val_c" value="0"><br>
     <div>
         <input type="radio" name="operação" value="delta">delta
-
-        
-
-
     </div>
+   
     <button onclick="calcula()">calcular</button>
+    <p>Resutado: <span id="res_1"></span></p>
+
    <script src="script.js"></script>
     
 </body>
