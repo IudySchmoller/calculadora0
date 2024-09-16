@@ -3,22 +3,23 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Calculadora</title>
 </head>
 <body>
 
     <h3>Resolução de equação de Segundo Grau</h3>
     equação na forma: ax² + bx + c = 0 <br>
-
+    <div class="zeroum">
     a:<input type="number" name="" id="val_a" value="1"><br>
     b:<input type="number" name="" id="val_b" value="0"><br>
     c:<input type="number" name="" id="val_c" value="0"><br>
-    <div>
-        <input type="radio" name="operação" value="delta">delta
-    </div>
+    </div>   
    
     <button onclick="calcula()">calcular</button>
-    <p>Resutado: <span id="res_1"></span></p>
+    <h3>Resposta</h3>
+    <span id="res_1"></span>
+    <span id="res_2"></span>
 
    <script src="script.js"></script>
     
